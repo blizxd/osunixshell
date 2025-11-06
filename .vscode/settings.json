@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "vector": "cpp",
+        "list": "cpp",
+        "backup": "c"
+    }
+}
