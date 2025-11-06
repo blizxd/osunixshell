@@ -117,7 +117,12 @@ void parse_tokens(char *input, char *tokens[], char **filename, redirect *redir)
 
     while (tokens[i] != NULL)
     {
-        if (i == 0)
+        if (strcmp(tokens[i], "exit") == 0 && i == 0)
+        {
+            printf("Exiting...\n");
+            exit(0);
+        }
+        else if (i == 0)
         {
             LOG("Program: %s \n", tokens[i]);
         }
