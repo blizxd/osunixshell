@@ -16,5 +16,6 @@ Programa palaiko vieną iš šių I/O nukreipimų operatorių:
 ```
 >>
 <
+>
 n>
 ```
