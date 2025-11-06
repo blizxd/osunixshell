@@ -1,8 +1,11 @@
 ## osunixshell
 
-Programivo OS UNIX kurso 2 užduotis.
+**Programivo OS UNIX kurso 2 užduotis.**
+
+**Autorius: Nikita Michailov inf 1 gr.**
 
 Kad sukompiliouti ir paleisti projektą:
+
 ```
 make
 make run
