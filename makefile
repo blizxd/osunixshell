@@ -1,15 +1,15 @@
 SRCS=$(wildcard *.c)
-OUT=build/main.out
+OUT=build/main
 CFLAGS=-Wall -std=c11 -g
 
 $(OUT) : $(SRCS)
-	gcc $(CFLAGS) $(SRCS) -o $(OUT)
+	clang $(CFLAGS) $(SRCS) -o $(OUT)
 
 run : $(OUT)
 	./$(OUT)
 
 clean:
-	rm build/*.out 
+	rm build/* 
 
 
 

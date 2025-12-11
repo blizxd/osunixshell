@@ -1,8 +1,9 @@
 {
-    "files.associations": {
-        "unistd.h": "c",
-        "vector": "cpp",
-        "list": "cpp",
-        "backup": "c"
-    }
+  "files.associations": {
+    "unistd.h": "c",
+    "vector": "cpp",
+    "list": "cpp",
+    "backup": "c"
+  },
+  "C_Cpp.default.compilerPath": "/usr/bin/clang"
 }
